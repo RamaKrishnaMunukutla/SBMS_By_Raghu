@@ -1,0 +1,13 @@
+my:
+  app:    pid: 10
+    pcode: AB
+    pcost: 25.0
+    details:      - D1
+      - D2
+      - D3
+    version:      V1: 3
+      V2: 9
+      V3: 6
+    vob:
+      vcode: VEN-ONE
+      addr: HYD      

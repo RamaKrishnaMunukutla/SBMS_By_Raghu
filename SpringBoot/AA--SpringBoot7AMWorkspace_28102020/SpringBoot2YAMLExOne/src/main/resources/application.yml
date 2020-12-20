@@ -1,0 +1,5 @@
+my:
+ app:
+    id: 10
+    code: NIT
+    cost: 500.0

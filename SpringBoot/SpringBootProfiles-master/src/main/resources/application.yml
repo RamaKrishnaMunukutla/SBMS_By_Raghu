@@ -1,0 +1,21 @@
+my:
+ env:
+  code: Hello from DEV YML
+spring:
+  profiles:
+    active: prod
+    include:
+    - prodserver  
+    - proddb
+---
+my:
+ env:
+  code: Hello from PROD YML
+spring:
+  profiles: prod  
+---  
+my:
+ env:
+  code: Hello from UAT YML
+spring:
+  profiles: uat

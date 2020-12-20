@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: INFO
+    org.sathyatech: ERROR
+    org.springframework: OFF
+  file: d:/logs/one.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %m%n"
+    file: "%p:%d{dd-MM-yy} %L %C{0}[%M]-%m%n"

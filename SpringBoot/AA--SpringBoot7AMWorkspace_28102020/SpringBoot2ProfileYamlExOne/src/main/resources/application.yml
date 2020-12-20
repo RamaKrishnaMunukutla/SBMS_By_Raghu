@@ -1,0 +1,26 @@
+# This is DEFAULT Profile
+my:
+  app:
+    driver: ORACLE-DEV-NEW
+    url: SAMPLE-DEV-NEW
+
+---
+# This is QA Profile
+spring:
+  profiles: qa
+
+my:
+  app:
+    driver: ORACLE-QA-NEW
+    url: SAMPLE-QA-NEW
+    
+---
+# This is Production Profile
+spring:
+  profiles: prod    
+  
+my:
+  app:
+    driver: ORACLE-PROD-NEW
+    url: SAMPLE-PROD-NEW
+    
